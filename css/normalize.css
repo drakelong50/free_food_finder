@@ -7,6 +7,7 @@ header{
     background-position: center;
     background-size:15%;
     
+    
 }
 
 
@@ -33,6 +34,7 @@ a
 a:hover
 {
   color: ghostwhite;
+    text-decoration-style: dotted;
 }
 
 #menuToggle
@@ -55,6 +57,7 @@ a:hover
   position: absolute;
   top: -7px;
   left: -5px;
+
   
   cursor: pointer;
   
@@ -75,7 +78,7 @@ a:hover
   margin-bottom: 5px;
   position: relative;
   
-  background: #cdcdcd;
+  background: white;
   border-radius: 3px;
   
   z-index: 1;
@@ -105,7 +108,7 @@ a:hover
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+  background: white;
 }
 
 /*
@@ -138,7 +141,7 @@ margin: -100px 0 0 -50px;
   padding: none;
   padding-top: 125px;
   
-  
+  text-align: center;
   background-color: #FF3B30;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
