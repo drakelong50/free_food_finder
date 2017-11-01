@@ -34,7 +34,7 @@ a
 
 a:hover
 {
-  color: tomato;
+  color: blue;
 }
 
 #menuToggle
@@ -136,8 +136,9 @@ a:hover
 {
   position: absolute;
   width: 300px;
+    height: 100%;
   margin: -100px 0 0 -50px;
-  padding: 50px;
+  padding: 56px;
   padding-top: 125px;
   
   background: #ededed;
