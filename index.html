@@ -16,41 +16,32 @@
 <body>
    
     <header>
-    
-    <section id="logo">
-    <img src="images/f3logo.png" style="width:84px;height:33px;">
-    </section>
-        
-    <nav role="navigation">
-  <div id="menuToggle">
-    <!--
-    A fake / hidden checkbox is used as click reciever,
-    so you can use the :checked selector on it.
-    -->
-    <input type="checkbox" />
-    
-    <span></span>
-    <span></span>
-    <span></span>
-    
-    <ul id="menu">
-      <a href="#"><li>Map View</li></a>
-      <a href="#"><li>List View</li></a>
-      <a href="#"><li>Calendar</li></a>
-      <a href="#"><li>Add Event</li></a>
-    </ul>
-  </div>
-</nav>
-         
-        
+
+
+            <nav role="navigation">
+          <div id="menuToggle">
+            <!--
+            A fake / hidden checkbox is used as click reciever,
+            so you can use the :checked selector on it.
+            -->
+            <input type="checkbox" />
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <ul id="menu">
+              <a href="#"><li>Map View</li></a>
+              <a href="#"><li>List View</li></a>
+              <a href="#"><li>Calendar</li></a>
+              <a href="#"><li>Add Event</li></a>
+            </ul>
+          </div>
+        </nav>   
 </header>
 
 <div id="map"></div>
     <script>
-      // Note: This example requires that you consent to location sharing when
-      // prompted by your browser. If you see the error "The Geolocation service
-      // failed.", it means you probably did not give permission for the browser to
-      // locate you.
       var map, infoWindow;
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
@@ -91,10 +82,7 @@
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANV4UgxXbdUGxOa-Q6tBuVzqnNw4FODZY&callback=initMap">
     </script>
-<!--
-To use this code on your website, get a free API key from Google.
-Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
--->
+
    
 
 </body>
