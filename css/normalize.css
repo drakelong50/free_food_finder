@@ -172,6 +172,22 @@ margin: -100px 0 0 -50px;
 #checkmark{
     
     text-align: center;
-    padding-top: 50px;
+    padding-top: 90px;
+    
+}
+
+
+h1{
+    font-family: 'Roboto'; font-style: bold; font-size: 36px; color: black;  
+}
+
+
+
+
+#sharebuttons{
+    
+    color:aqua;
+    display: block;
+    
     
 }
