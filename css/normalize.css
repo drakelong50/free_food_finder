@@ -23,16 +23,14 @@ html, body {
       }
 
 
-a
-{
+header a{
   text-decoration: none;
   color: white;
   
   transition: color 0.3s ease;
 }
 
-a:hover
-{
+header a:hover{
   color: ghostwhite;
     text-decoration-style: dotted;
 }
@@ -190,5 +188,21 @@ h1{
     display: block;
     text-align: center;
     
+    
+}
+
+
+#returnhome{
+    
+    padding: 20px;
+    text-align: center;
+    color: #ff3b00;
+    font-weight: 900;
+    font-size: 14pt;
+}
+
+#returnhome a{
+    
+    color: #ff3b00;
     
 }
