@@ -186,8 +186,9 @@ h1{
 
 #sharebuttons{
     
-    color:aqua;
+    padding-top: 40px;
     display: block;
+    text-align: center;
     
     
 }
