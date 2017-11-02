@@ -1,73 +1,70 @@
 header{
-    width: 100%;
-    height: 56px;
-    background-color: #FF3B30;
-    background-image: url(../images/f3logo.png); 
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:15%;
-}
+    width: 100%;
+    height: 56px;
+    background-color: #FF3B30;
+    background-image: url(../images/f3logo.png); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:15%;
 
-
-#logo{
-    padding-top: 10px;
-    text-align: center;
-    
+    
 }
 
 
 #map {
-        height: 100%;
-      }
-      /* Optional: Makes the sample page fill the window. */
-      
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      
 html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
 
 
 a
 {
-  text-decoration: none;
-  color: white;
-  
-  transition: color 0.3s ease;
+  text-decoration: none;
+  color: white;
+  
+  transition: color 0.3s ease;
 }
 
 a:hover
 {
-  color: ghostwhite;
+  color: ghostwhite;
+    text-decoration-style: dotted;
 }
 
 #menuToggle
 {
-  display: block;
-  position: relative;
-  
-    padding: 15px;
-    z-index: 1;
-  
-  -webkit-user-select: none;
-  user-select: none;
+  display: block;
+  position: relative;
+  
+    padding: 15px;
+    z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 #menuToggle input
 {
-  display: block;
-  width: 40px;
-  height: 32px;
-  position: absolute;
-  top: -7px;
-  left: -5px;
-  
-  cursor: pointer;
-  
-  opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
-  
-  -webkit-touch-callout: none;
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
 }
 
 /*
@@ -75,32 +72,32 @@ a:hover
  */
 #menuToggle span
 {
-  display: block;
-  width: 33px;
-  height: 4px;
-  margin-bottom: 5px;
-  position: relative;
-  
-  background: #cdcdcd;
-  border-radius: 3px;
-  
-  z-index: 1;
-  
-  transform-origin: 4px 0px;
-  
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              opacity 0.55s ease;
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: white;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
 }
 
 #menuToggle span:first-child
 {
-  transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
 }
 
 #menuToggle span:nth-last-child(2)
 {
-  transform-origin: 0% 100%;
+  transform-origin: 0% 100%;
 }
 
 /* 
@@ -109,9 +106,9 @@ a:hover
  */
 #menuToggle input:checked ~ span
 {
-  opacity: 1;
-  transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: white;
 }
 
 /*
@@ -119,8 +116,8 @@ a:hover
  */
 #menuToggle input:checked ~ span:nth-last-child(3)
 {
-  opacity: 0;
-  transform: rotate(0deg) scale(0.2, 0.2);
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
 }
 
 /*
@@ -128,7 +125,7 @@ a:hover
  */
 #menuToggle input:checked ~ span:nth-last-child(2)
 {
-  transform: rotate(-45deg) translate(0, -1px);
+  transform: rotate(-45deg) translate(0, -1px);
 }
 
 /*
@@ -137,29 +134,29 @@ a:hover
  */
 #menu
 {
-  position: absolute;
-  width: 300px;
-    height: 900px;
+  position: absolute;
+  width: 300px;
+    height: 900px;
 margin: -100px 0 0 -50px;
-  padding: none;
-  padding-top: 125px;
-  
-  
-  background-color: #FF3B30;
-  list-style-type: none;
-  -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
-  
-  transform-origin: 0% 0%;
-  transform: translate(-100%, 0);
-  
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  padding: none;
+  padding-top: 125px;
+  
+  text-align: center;
+  background-color: #FF3B30;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
 #menu li
 {
-  padding: 10px 0;
-  font-size: 22px;
+  padding: 10px 0;
+  font-size: 22px;
 
 }
 
@@ -168,5 +165,13 @@ margin: -100px 0 0 -50px;
  */
 #menuToggle input:checked ~ ul
 {
-  transform: none;
+  transform: none;
+}
+
+
+#checkmark{
+    
+    text-align: center;
+    
+    
 }
