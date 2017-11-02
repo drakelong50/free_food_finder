@@ -185,7 +185,7 @@ h1{
 
 #sharebuttons{
     
-    padding-top: 40px;
+    padding: 30px;
     display: block;
     text-align: center;
     
@@ -195,7 +195,7 @@ h1{
 
 #returnhome{
     
-    padding: 20px;
+    padding: 0px;
     text-align: center;
     color: #ff3b00;
     font-weight: 900;
