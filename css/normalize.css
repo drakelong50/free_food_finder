@@ -181,7 +181,12 @@ h1{
     font-family: 'Roboto'; font-style: bold; font-size: 36px; color: black;  
 }
 
-
+h6{
+    
+  font-size: 9px;
+    color: white;
+    padding-top: 550px;
+}
 
 
 #sharebuttons{
