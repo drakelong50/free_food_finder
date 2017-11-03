@@ -2,10 +2,11 @@ header{
     width: 100%;
     height: 56px;
     background-color: #FF3B30;
-    background-image: url(../images/f3logo.png); 
+    background-image: url(../images/f3logo.svg); 
     background-repeat: no-repeat;
     background-position: center;
-    background-size:15%;
+    background-size:80px;
+     
     
 }
 
