@@ -232,9 +232,23 @@ margin: -100px 0 0 -50px;
 }
 
 /* form starting stylings ------------------------------- */
+#event {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#submitButton {
+    width: 128px;
+    margin: 0 auto;
+}
+
 .group 			  { 
+  width: fit-content;
+  margin: 0 auto;
   position:relative;
-  margin-bottom:45px; 
+  margin-bottom:45px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
 }
 input 				{
   font-size:18px;
