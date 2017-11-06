@@ -268,7 +268,7 @@ input:focus 		{ outline:none; }
     }
     
     #submitButton {
-        width: 128px;
+        width: px;
         margin: 0 auto;
     }
     
@@ -360,6 +360,6 @@ input:focus ~ .highlight {
     
     color:white;
     background-color: #ff3b30;
-    
+    width: 128px;
     
 }
