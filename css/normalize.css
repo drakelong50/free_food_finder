@@ -356,3 +356,10 @@ input:focus ~ .highlight {
   to 	{ width:0; background:transparent; }
 }
 
+#submitButton{
+    
+    color:white;
+    background-color: #ff3b30;
+    
+    
+}
