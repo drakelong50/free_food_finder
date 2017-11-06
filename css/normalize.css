@@ -177,11 +177,11 @@ margin: -100px 0 0 -50px;
 }
 
 
-h1{
+#checkmark h1{
     font-family: 'Roboto'; font-style: bold; font-size: 36px; color: black;  
 }
 
-h6{
+#checkmark h6{
     
   font-size: 9px;
     color: white;
@@ -212,4 +212,17 @@ h6{
     
     color: #ff3b00;
     
+}
+
+#eventheader h2{
+    font-family: 'Roboto'; font-style: bold; font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #ff3b30;
+    padding-top: 50px
+}
+
+#eventheader form{
+    text-align: center;
+    padding-top: 20px;
 }
