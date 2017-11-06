@@ -224,9 +224,9 @@ margin: -100px 0 0 -50px;
 .container h2{
     font-family: 'Roboto'; font-style: bold; font-size: 26px;
     line-height: 21px;
-    text-align: center;
     color: #ff3b30;
     padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 /* form starting stylings ------------------------------- */
