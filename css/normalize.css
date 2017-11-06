@@ -260,7 +260,7 @@ input 				{
 }
 input:focus 		{ outline:none; }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 600px) {
     .group {
         width: fit-content;
         margin: 0 auto;
