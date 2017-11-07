@@ -345,3 +345,9 @@ input[type=datetime-local]::-webkit-datetime-edit {
 
 }
 
+#calendar{
+    padding-top: 56px;
+    height: 100%;
+    width: 100%;
+    
+}
