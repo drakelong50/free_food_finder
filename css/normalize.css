@@ -259,22 +259,7 @@ input 				{
 }
 input:focus 		{ outline:none; }
 
-@media only screen and (max-width: 768px) {
-    .group {
-        width: fit-content;
-        margin: 0 auto;
-        margin-bottom: 45px;
-        object-position: center;
-    }
-    
-    #submitButton {
-        width: px;
-        margin: 0 auto;
-        object-position: center;
-    }
-    
 
-}
 
 /* LABEL ======================================= */
 label 				 {
