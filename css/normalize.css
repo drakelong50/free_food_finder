@@ -232,10 +232,7 @@ margin: -100px 0 0 -50px;
 }
 
 /* form starting stylings ------------------------------- */
-#event {
-    width: fit-content;
-    margin: 0 auto;
-}
+
 
 #submitButton {
     width: 128px;
@@ -267,17 +264,16 @@ input:focus 		{ outline:none; }
         width: fit-content;
         margin: 0 auto;
         margin-bottom: 45px;
+        object-position: center;
     }
     
     #submitButton {
         width: px;
         margin: 0 auto;
+        object-position: center;
     }
     
-    #event {
-        width: fit-content;
-        margin: 0 auto;
-    }
+
 }
 
 /* LABEL ======================================= */
