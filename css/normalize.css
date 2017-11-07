@@ -355,8 +355,7 @@ input:focus ~ .highlight {
 }
 
 input[type=datetime-local]::-webkit-datetime-edit {
-    padding-left: 100px;
-    color: #757575;
+    color: #999999;
 
 }
 
