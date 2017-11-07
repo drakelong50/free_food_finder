@@ -49,27 +49,27 @@
     <form action="sharesheet.html">
     
     <div class="group">      
-      <input type="text" required>
+      <input type="text" oninvalid="this.setCustomValidity('Come on, we need a name!')" required>
       <span class="highlight"></span>
       <span class="bar"></span>
       <label>Event Title</label>
     </div>
       
     <div class="group">      
-      <input type="text" required>
+      <input type="text" oninvalid="this.setCustomValidity('Where is the free food!?')" required>
       <span class="highlight"></span>
       <span class="bar"></span>
       <label>Where is it?</label>
     </div>
         
     <div class="group">      
-      <input type="datetime-local" required>
+      <input type="datetime-local" oninvalid="this.setCustomValidity('When is it my dude?')" required>
       <span class="highlight"></span>
       <span class="bar"></span>
     </div>
         
     <div class="group">      
-      <input type="text" required>
+      <input type="text" oninvalid="this.setCustomValidity('What food tho?')" required>
       <span class="highlight"></span>
       <span class="bar"></span>
       <label>What's on the menu?</label>
