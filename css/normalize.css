@@ -140,6 +140,7 @@ header a:hover{
 margin: -100px 0 0 -50px;
   padding: none;
   padding-top: 125px;
+    z-index: 1;
   
   text-align: center;
   background-color: #FF3B30;
@@ -247,6 +248,7 @@ margin: -100px 0 0 -50px;
   margin-bottom:45px;
   margin-left: 0 auto;
   margin-right: 0 auto;
+    z-index: -2;
 }
 input 				{
   font-size:18px;
