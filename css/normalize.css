@@ -8,6 +8,7 @@ header{
     background-repeat: no-repeat;
     background-position: center;
     background-size:80px;
+    z-index: 2;
      
     
 }
@@ -247,7 +248,7 @@ margin: -100px 0 0 -50px;
   margin-bottom:45px;
   margin-left: 0 auto;
   margin-right: 0 auto;
-    z-index: -2;
+
 }
 input 				{
   font-size:18px;
