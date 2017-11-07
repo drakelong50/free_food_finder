@@ -240,6 +240,8 @@ margin: -100px 0 0 -50px;
 #submitButton {
     width: 128px;
     margin: 0 auto;
+    color:white;
+    background-color: #ff3b30;   
 }
 
 .group 			  { 
@@ -354,12 +356,4 @@ input:focus ~ .highlight {
 @keyframes inputHighlighter {
 	from { background:#FF3B30; }
   to 	{ width:0; background:transparent; }
-}
-
-#submitButton{
-    
-    color:white;
-    background-color: #ff3b30;
-    width: 128px;
-    
 }
